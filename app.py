@@ -160,6 +160,5 @@ def _parse_bin(path: str) -> dict:
         "vehicle_type": vehicle_type,
     }
 
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
